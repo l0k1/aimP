@@ -1,0 +1,3 @@
+IP is 74.208.121.102
+python port is 33333
+to start python server: python test.py 74.208.121.102:33333
