@@ -9,6 +9,9 @@ def get_db_location():
 
 def get_db():
     return connection
+
+def get_connection():
+    return connection.cursor()
     
 def close_db():
     connection.close()

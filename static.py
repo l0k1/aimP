@@ -60,4 +60,8 @@ class input:
         else:
            return 'Invalid requesttype, exiting.'
 
+def new_request(data):
+    ai_db = db.get_db()
+    ai_c = db.get_connection()
+#CREATE TABLE IF NOT EXISTS info (PRIMARY KEY id int, username text, password text)
 app_static = web.application(urls, locals())
